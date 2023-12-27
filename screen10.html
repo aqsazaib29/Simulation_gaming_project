@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 10</title>
+    <link rel="stylesheet" href="STYLING/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="video" id="s10-video">
+            <img src="IMAGES/screen10.png" alt="">
+        </div>
+
+        <div class="formbtn">
+            <div class="form s6-form">
+                <form id="myForm1">
+                    <h3 class="s6-h3">Select an option</h3>
+
+                    <div class="s10-in1 input" >
+                        <input type="radio" name="choice" value="bell" id="op1">
+                        <div class="input-label label-s6">
+                            <label for="op1">a.	You want to make sure there are enough snacks to last the movie.</label>
+                        </div>
+                    </div>
+
+
+                    <div class="s10-in2 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">b. Your mind calculated the point at which you can get most quantity at least price.</label>
+                        </div>
+                    </div>
+
+                    <div class="s10-in3 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">c. You do not believe sugar and soda is bad for health.</label>
+                        </div>
+                    </div>
+
+                    <div class="s10-in4 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">d. The value of an additional quarter is less than the value of additional $1.75.</label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+            <div class="btns">
+                <button class="s1-btn1" onclick="play()">PLAY</button>
+                <div class="two-btn">
+                    <a href="/index.html"><button class="s1-btn2">NEXT</button></a>
+                    <a href="/screen9.html"><button class="s1-btn3">PREVIOUS</button></a>
+                </div>
+            </div>
+    </div>
+
+
+
+    <script>
+        function play() {
+            var videoContainer = document.getElementById("s10-video").innerHTML = '<iframe  width="700" height="430" src="VIDEO/screen10.mp4"frameborder="0" allowfullscreen></iframe>';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 8</title>
+    <link rel="stylesheet" href="STYLING/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="video" id="s8-video">
+            <img src="IMAGES/screen8-8a.png" alt="">
+        </div>
+
+        <div class="formbtn">
+            <div class="form s6-form">
+                <form id="myForm1">
+                    <h3 class="s6-h3">Select an option</h3>
+
+                    <div class="s8-in1 input" >
+                        <input type="radio" name="choice" value="bell" id="op1">
+                        <div class="input-label label-s8">
+                            <label for="op1">a. When an ugly Bobby option is added to a choice group between Bobby and Jim, Bobby is selected as the most attractive.</label>
+                        </div>
+                    </div>
+
+
+                    <div class="s8-in2 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s8">
+                            <label for="op1">b. You will see something fake and it will arise your curiosity. You will go to explore and most likely fall into the trap </label>
+                        </div>
+                    </div>
+
+                    <div class="s8-in3 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s8">
+                            <label for="op1">c.	When presented with 3 options, you will pick the cheapest one of 2 close options.</label>
+                        </div>
+                    </div>
+
+                    <div class="s8-in4 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s8">
+                            <label for="op1">d.	When ugly Archie is added to the choice group between Jughead and Archie, Jughead is found to be most attractive.</label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+            <div class="btns">
+                <button class="s1-btn1" onclick="play()">PLAY</button>
+                <div class="two-btn">
+                    <a href="/screen9.html"><button class="s1-btn2">NEXT</button></a>
+                    <a href="/screen7.html"><button class="s1-btn3">PREVIOUS</button></a>
+                    </div>
+            </div>
+    </div>
+
+
+
+    <script>
+        function play() {
+            var videoContainer = document.getElementById("s8-video").innerHTML = '<iframe  width="700" height="430" src="VIDEO/screen8.mp4"frameborder="0" allowfullscreen></iframe>';
+        }
+    </script>
+</body>
+
+</html>

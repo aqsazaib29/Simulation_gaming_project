@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 6</title>
+    <link rel="stylesheet" href="STYLING/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="video" id="s6-video">
+            <img src="IMAGES/screen5-5a.png" alt="">
+        </div>
+
+        <div class="formbtn">
+            <div class="form s6-form">
+                <form id="myForm1">
+                    <h3 class="s6-h3">Select an option</h3>
+
+                    <div class="s6-in1 input" >
+                        <input type="radio" name="choice" value="bell" id="op1">
+                        <div class="input-label label-s6">
+                            <label for="op1">I. Because value assignment in our minds is not absolute, but relative.</label>
+                        </div>
+                    </div>
+
+
+                    <div class="s6-in2 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">II. Because a bad option (C) will keep the value equation between (A) and (B) the same.</label>
+                        </div>
+                    </div>
+
+                    <div class="s6-in3 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">III. Because this third option is asymmetrically dominated by the cheaper option.</label>
+                        </div>
+                    </div>
+
+                    <div class="s6-in4 input">
+                        <input type="radio" name="choice" value="inox" id="op2">
+                        <div class="input-label label-s6">
+                            <label for="op1">IV. Because people are always sure what they want.</label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+            <div class="btns">
+                <button class="s1-btn1" onclick="play()">PLAY</button>
+                <div class="two-btn">
+                    <a href="/screen7.html"><button class="s1-btn2">NEXT</button></a>
+                    <a href="/screen5.html"><button class="s1-btn3">PREVIOUS</button></a>
+                    </div>
+            </div>
+    </div>
+
+
+
+    <script>
+        function play() {
+            var videoContainer = document.getElementById("s6-video").innerHTML = '<iframe  width="700" height="430" src="VIDEO/screen6.mp4"frameborder="0" allowfullscreen></iframe>';
+        }
+    </script>
+</body>
+
+</html>

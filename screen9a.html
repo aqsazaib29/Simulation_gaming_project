@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 9-a</title>
+    <link rel="stylesheet" href="STYLING/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="video" id="s9a-video">
+            <img src="IMAGES/screen9a-10a.png" alt="">
+        </div>
+
+
+        <div class="btns s5-btn">
+            <button class="s1-btn1" onclick="play()">PLAY</button>
+            <a href="/screen10.html"><button class="s1-btn2">NEXT</button></a>
+            <a href="/screen8.html"><button class="s1-btn3">PREVIOUS</button></a>
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        function play() {
+            var videoContainer = document.getElementById("s9a-video").innerHTML = '<iframe  width="700" height="430" src="VIDEO/screen9a-10a.mp4"frameborder="0" allowfullscreen></iframe>';
+        }
+    </script>
+</body>
+
+</html>

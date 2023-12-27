@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 3</title>
+    <link rel="stylesheet" href="STYLING/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="video" id="s2-video">
+            <img src="IMAGES/screen3.png" alt="">
+        </div>
+        <div class="formbtn">
+
+            <div class="form s2-form">
+                <form id="myForm2">
+                    <h3 class="s2-h3">Select an option</h3><br>
+                    <div class="s2-in input" >
+                        <input type="radio" name="choice" value="bell" id="op1">
+                        <div class="input-label label-s1">
+                            <label for="op1">BELL LAPTOP</label>
+                            <ul>
+                                <li> Price: $400</li>
+                                <li> Capacity: 200GB</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="s2-in input">
+
+                        <input type="radio" name="choice" value="inox" id="op2">
+
+                        <div class="input-label label-s1">
+
+                            <label for="op1">INOX LAPTOP</label>
+
+                            <ul>
+                                <li> Price: $685</li>
+                                <li> Capacity: 400GB</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="s2-in input">
+
+                        <input type="radio" name="choice" value="rasus" id="op3">
+
+                        <div class="input-label label-s1">
+
+                            <label for="op1">RASUS LAPTOP</label>
+
+                            <ul>
+                                <li> Price: $620</li>
+                                <li> Capacity: 300GB</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+
+                    
+                </form>
+            </div>
+
+            <div class="btns">
+                <button class="s1-btn1" onclick="play()">PLAY</button>
+                <div class="two-btn">
+                    <a href="./screen4-a.html"><button class="s1-btn2">NEXT</button></a>
+                    <a href="./screen1-2.html"><button class="s1-btn3">PREVIOUS</button></a>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function play() {
+            var videoContainer = document.getElementById("s2-video").innerHTML = '<iframe  width="700" height="430" src="VIDEO/screen3-4.mp4"frameborder="0" allowfullscreen></iframe>';
+        } 
+    </script>
+</body>
+
+</html>
